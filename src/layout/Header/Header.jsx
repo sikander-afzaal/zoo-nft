@@ -4,7 +4,6 @@ import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link as ScrollLink } from "react-scroll";
-import logo from "../../assets/images/logo.png";
 const Header = () => {
   const [open, setOpen] = useState(false);
   const openFunc = (e) => {
@@ -20,13 +19,10 @@ const Header = () => {
   };
   const changeBackground = () => {
     const header = document.querySelector(".header");
-    const logo = document.querySelector(".head-logo");
     if (window.scrollY >= 200) {
       header.classList.add("black-nav");
-      logo.classList.add("show-logo");
     } else {
       header.classList.remove("black-nav");
-      logo.classList.remove("show-logo");
     }
   };
   useEffect(() => {
@@ -37,7 +33,6 @@ const Header = () => {
     <>
       <header className={`header `}>
         <div className="h_container">
-          <img src={logo} alt="" className="head-logo" />
           <div className={`nav_ul ${open ? "open-nav" : ""}`}>
             <ScrollLink
               spy={true}

@@ -119,18 +119,11 @@
 .roadmap-wrapper {
   min-height: 100vh;
   height: auto;
-  padding-bottom: 4rem;
   margin-top: 10rem;
-  margin-bottom: 6rem;
 }
 .main-head {
   font-size: 4rem;
-  background: linear-gradient(
-    112.98deg,
-    #fff4d1 8.47%,
-    #f5d28f 23.3%,
-    #675537 91.31%
-  );
+  background: linear-gradient(-45deg, #7e5817, #fdc55c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -223,12 +216,7 @@
 }
 .top-road {
   width: 100%;
-  background: linear-gradient(
-    112.98deg,
-    #fff4d1 8.47%,
-    #f5d28f 23.3%,
-    #675537 91.31%
-  );
+  background: linear-gradient(-45deg, #7e5817 40%, #fdc55c);
   padding: 22px 10px 26px 10px;
   display: grid;
   place-items: center;
@@ -445,10 +433,6 @@
     width: 57.39px;
     height: 148px;
   }
-
-  .roadmap-wrapper {
-    margin-bottom: 4rem;
-  }
 }
 
 @media (max-width: 500px) {
@@ -514,12 +498,7 @@
 .team h1 {
   margin-bottom: 1rem;
   margin-top: 1.5rem;
-  background: linear-gradient(
-    112.98deg,
-    #fff4d1 8.47%,
-    #f5d28f 23.3%,
-    #675537 91.31%
-  );
+  background: linear-gradient(-45deg, #7e5817, #fdc55c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -613,12 +592,7 @@
 .heading-div .small {
   font-size: 4rem;
   letter-spacing: 3px;
-  background: linear-gradient(
-    112.98deg,
-    #fff4d1 8.47%,
-    #f5d28f 23.3%,
-    #675537 91.31%
-  );
+  background: linear-gradient(-45deg, #7e5817, #fdc55c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

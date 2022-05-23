@@ -1,5 +1,4 @@
 import React from "react";
-import hammer from "../../assets/icons/hammer.png";
 import Fade from "react-reveal/Fade";
 function Roadmap() {
   let Thorhammer = React.useRef();

@@ -1,0 +1,83 @@
+.wrapper-character {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.pop-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 85% 15%;
+  place-items: center;
+  height: 100%;
+  width: 100% !important;
+  background-image: url("../../assets/characters/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -600px;
+  transition: all 0.7s ease-in-out;
+}
+.pop-text {
+  font-size: 0.8rem !important;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80% !important;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+.pop-div h2 {
+  background: linear-gradient(
+    112.98deg,
+    #fff4d1 8.47%,
+    #f5d28f 23.3%,
+    #675537 91.31%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  align-self: center;
+  padding-bottom: 15px;
+  justify-self: center;
+  font-family: "h1";
+  font-weight: bold;
+}
+.wrapper-character:hover .pop-div {
+  bottom: 0;
+}
+.wrapper-character video {
+  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.wrapper-character h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+@media screen and (max-width: 1694px) {
+  .pop-text {
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 1530px) {
+  .pop-text {
+    font-size: 0.7rem !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .pop-text {
+    font-size: 0.9rem !important;
+  }
+  .wrapper-grid .react-reveal {
+    flex: none !important;
+    width: 350px;
+  }
+}

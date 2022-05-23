@@ -1,7 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 function Roadmap() {
-  let Thorhammer = React.useRef();
+  let blob = React.useRef();
   let lineRef = React.useRef();
 
   let box = React.useRef();
@@ -30,7 +30,7 @@ function Roadmap() {
           </Fade>
           <div className="roadmap-content-wrapper">
             <div className="roadmap-content" ref={lineRef}>
-              <div className="roadmap-box bot" ref={Thorhammer}>
+              <div className="roadmap-box bot" ref={blob}>
                 <div className="hammer">
                   <div className="road-blob"></div>
                 </div>

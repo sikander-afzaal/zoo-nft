@@ -72,6 +72,7 @@ const Header = () => {
               Faq
             </ScrollLink>
           </div>
+          <button className="connect">Connect Wallet</button>
           <FontAwesomeIcon
             onClick={openFunc}
             className="hamburger"

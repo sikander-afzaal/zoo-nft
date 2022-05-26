@@ -22,10 +22,24 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
 }
-
+.connect {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 50px;
+  transition: all 0.5s ease-in-out;
+}
+.connect:hover {
+  background-color: rgba(17, 20, 29, 0.72);
+  color: white;
+}
 .nav_ul {
   display: flex;
   align-items: flex-start;
@@ -101,11 +115,15 @@
   .header {
     overflow: hidden;
   }
-
+  .connect {
+    margin: 0;
+  }
   .h_container {
     position: relative;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding-inline: 20px;
   }
   .hamburger {
     display: block;
